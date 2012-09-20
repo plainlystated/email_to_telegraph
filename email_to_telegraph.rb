@@ -1,10 +1,10 @@
 require 'rubygems'
 require 'gmail'
 require 'yaml'
-require File.expand_path("./lib/morse_code.rb")
-require File.expand_path("./lib/telegraph_sounder.rb")
+require File.expand_path(File.dirname(__FILE__) + "/lib/morse_code.rb")
+require File.expand_path(File.dirname(__FILE__) + "/lib/telegraph_sounder.rb")
 
-config = YAML.load_file("config.yml")
+config = YAML.load_file(File.dirname(__FILE__) + "/config.yml")
 
 Gmail.new(config[:username], config[:password]) do |gmail|
   puts Time.now
