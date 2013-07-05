@@ -31,57 +31,57 @@ class MorseCode
 
   def self.encode_letter(letter)
     letter_codes = case letter
-    when "a":
+    when "a"
       [Dot, Dash]
-    when "b":
+    when "b"
       [Dash, Dot, Dot, Dot]
-    when "c":
+    when "c"
       [Dash, Dot, Dash, Dot]
-    when "d":
+    when "d"
       [Dash, Dot, Dot]
-    when "e":
+    when "e"
       [Dot]
-    when "f":
+    when "f"
       [Dot, Dot, Dash, Dot]
-    when "g":
+    when "g"
       [Dash, Dash, Dot]
-    when "h":
+    when "h"
       [Dot, Dot, Dot, Dot]
-    when "i":
+    when "i"
       [Dot, Dot]
-    when "j":
+    when "j"
       [Dot, Dash, Dash, Dash]
-    when "k":
+    when "k"
       [Dash, Dot, Dash]
-    when "l":
+    when "l"
       [Dot, Dash, Dot, Dot]
-    when "m":
+    when "m"
       [Dash, Dash]
-    when "n":
+    when "n"
       [Dash, Dot]
-    when "o":
+    when "o"
       [Dash, Dash, Dash]
-    when "p":
+    when "p"
       [Dot, Dash, Dash, Dot]
-    when "q":
+    when "q"
       [Dash, Dash, Dot, Dash]
-    when "r":
+    when "r"
       [Dot, Dash, Dot]
-    when "s":
+    when "s"
       [Dot, Dot, Dot]
-    when "t":
+    when "t"
       [Dash]
-    when "u":
+    when "u"
       [Dot, Dot, Dash]
-    when "v":
+    when "v"
       [Dot, Dot, Dot, Dash]
-    when "w":
+    when "w"
       [Dot, Dash, Dash]
-    when "x":
+    when "x"
       [Dash, Dot, Dot, Dash]
-    when "y":
+    when "y"
       [Dash, Dot, Dash, Dash]
-    when "z":
+    when "z"
       [Dash, Dash, Dot, Dot]
     end
 

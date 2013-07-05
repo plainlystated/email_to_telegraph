@@ -22,9 +22,12 @@ class TelegraphSounder
 
   def self.say_char(char)
     case char
-    when ".": _on(1)
-    when "-": _on(3)
-    when " ": _off(1)
+    when "."
+      _on(1)
+    when "-"
+      _on(3)
+    when " "
+      _off(1)
     end
   end
 
